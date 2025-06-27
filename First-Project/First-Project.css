@@ -1,0 +1,35 @@
+#box1 {
+    height: 580px;
+    width: 600px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+
+img {
+
+    width: 520px;
+    margin: 35px;
+    border-radius: 30px;
+}
+
+h2 {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+}
+
+p {
+    color: white;
+    display: inline;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+}
+
+.p1 {
+    color: rgb(140, 140, 247);
+
+}

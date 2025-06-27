@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+
+.container {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.gallery {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* 
+.card {
+    grid-column-start: 1;
+    grid-column-end: 1;
+} */
+
+img {
+    overflow: hidden;
+}
